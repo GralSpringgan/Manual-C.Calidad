@@ -1,0 +1,27 @@
+{
+  "name": "proyecto-manual-c.calidad",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "css": "gulp css",
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GralSpringgan/Manual-C.Calidad.git"
+  },
+  "author": "Laporta Mauricio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GralSpringgan/Manual-C.Calidad/issues"
+  },
+  "homepage": "https://github.com/GralSpringgan/Manual-C.Calidad#readme",
+  "dependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.0",
+    "sass": "^1.85.1"
+  }
+}
